@@ -78,7 +78,7 @@ if [[ ! "${FREEBSD_VERSION}" =~ $FREEBSD_VERSION_REGEX ]]; then
 fi
 
 if [[ ! "${NETWORK}" =~ $NETWORK_REGEX ]]; then
-  >&2 echo "ivalid network $NETWORK (expecting A.B.C, e.g. 10.100.1)"
+  >&2 echo "invalid network $NETWORK (expecting A.B.C, e.g. 10.100.1)"
   exit 1
 fi
 
